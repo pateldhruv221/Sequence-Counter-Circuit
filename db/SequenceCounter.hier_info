@@ -1,0 +1,43 @@
+|SequenceCounter
+s0 <= 7447:inst.OA
+reset => inst6.ACLR
+reset => inst7.PRESET
+reset => inst5.ACLR
+reset => inst4.ACLR
+clk => inst4.CLK
+clk => inst5.CLK
+clk => inst7.CLK
+clk => inst6.CLK
+s1 <= 7447:inst.OB
+s2 <= 7447:inst.OC
+s3 <= 7447:inst.OD
+s4 <= 7447:inst.OE
+s5 <= 7447:inst.OF
+s6 <= 7447:inst.OG
+Q2out <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q1out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q0out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SequenceCounter|7447:inst
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
